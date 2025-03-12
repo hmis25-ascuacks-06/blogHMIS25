@@ -1,6 +1,6 @@
 # Introducción al Proyecto
 **Fecha**: 12 de marzo de 2025
-**Autor**: [Nombre/Nick del Estudiante 1]
+**Autor**: [Mary-Anne Crisan]
 ## Descripción del Proyecto
 En este blog se mostrará el desarrollo de un blog estático (este mismo) usando Jekyll. Luego, se desplegará tanto en GitHub Pages y en Azure. Haremos desarrollo colaborativo, el control de versiones de Git y despliegue de aplicaciones web. 
 ## Objetivos
