@@ -4,7 +4,6 @@
 
 layout: home
 title: "Blog HMIS"
-theme: Simplex
 ---
 # Latest Posts
 
