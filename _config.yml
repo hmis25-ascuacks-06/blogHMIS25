@@ -21,9 +21,7 @@
 title: Blog de HMIS25
 email: hmiseq@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  En este blog sev tratarán cosas tales como: despliegue de una página web 
-  estática con GitHub pages y Jekyll, despliegue en Azure, otra 
-  información relevante como: uso de JUnit5, uso de proyectos Maven, integración Jenkins y GitLab
+  En este blog se tratarán temas de las sesiones de la asignatura
 baseurl: "/blogHMIS25" # the subpath of your site, e.g. /blog
 url: "https://hmis25-ascuacks-06.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
