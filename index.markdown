@@ -18,11 +18,11 @@ layout: default
 
 
 <footer>
-  <h3>Desarrolladores</h3>
+  <h3>Dev Files</h3>
   <ul>
-    {% assign devs_folder = site.static_files | where: "path", "creadores" %}
-    {% for file in devs_folder %}
-      <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>
+    {% assign devs_files = site.pages | where: "path", "devs/" %}
+    {% for file in devs_files %}
+      <li><a href="{{ file.url | relative_url }}">{{ file.title }}</a></li>
     {% endfor %}
   </ul>
 </footer>
