@@ -15,3 +15,14 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+
+<footer>
+  <h3>Desarrolladores</h3>
+  <ul>
+    {% assign devs_folder = site.static_files | where: "path", "creadores" %}
+    {% for file in devs_folder %}
+      <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>
+    {% endfor %}
+  </ul>
+</footer>
