@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Oliver
-permalink: /devs/Oliver
+permalink: /devs/Oliver/
 ---
