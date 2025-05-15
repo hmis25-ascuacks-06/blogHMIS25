@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Mary
-permalink: /devs/Mary/
+title:  "Conoce a Mary"
+nav: false
+permalink: devs/mary
 ---
