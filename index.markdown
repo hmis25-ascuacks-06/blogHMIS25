@@ -2,11 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+title: Home
+nav: true
 ---
-# Posts
+# Bienvenidos al blog del grupo 6 🎉
+El blog, aunque realizado para una entrega en la asignatura **Herramientas y Metodologías de la Ingeniería del Software**, nos servirá para demostrar los conocimientos adquiridos a lo largo de la asignatura. Estos varían desde aprender a usar Git y sus comandos, a usar Jenkins para automatizar procesos de testeo, e incluso usar Selenium para realizar tests sobre páginas web.
+# 💫Posts más recientes💫
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:2 %}
     <li>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       <p class="post-meta">{{ post.date | to_date | date: "%B %d, %Y" }}</p>
@@ -15,14 +19,3 @@ layout: default
     </li>
   {% endfor %}
 </ul>
-
-
-<footer>
-  <h3>Dev Files</h3>
-  <ul>
-    {% assign devs_files = site.pages | where: "path", "devs/" %}
-    {% for file in devs_files %}
-      <li><a href="{{ file.url | relative_url }}">{{ file.title }}</a></li>
-    {% endfor %}
-  </ul>
-</footer>

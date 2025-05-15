@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Oliver
-permalink: /devs/Oliver/
+title:  "Conoce a Oliver"
+nav: false
+permalink: devs/oliver
 ---
