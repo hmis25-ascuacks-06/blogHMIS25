@@ -315,3 +315,11 @@ button {
     transform: scale(0.95); /* Slight shrink effect */
   }
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 1vh;
+  vertical-align: middle;
+  object-fit: cover;
+}
