@@ -3,7 +3,7 @@ layout: page
 title:  "Conoce a Mary"
 permalink: devs/mary
 ---
-<img src="\blogHMIS25\assets\pfpMHMIS.jpg" alt="pfpMary" draggable="false">
+<img class="customImage" src="\blogHMIS25\assets\pfpMHMIS.jpg" alt="pfpMary" draggable="false">
 
 
 
