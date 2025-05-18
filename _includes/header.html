@@ -22,8 +22,6 @@
       {%- if my_page.title and my_page.title != "Conoce a Mary" and my_page.title != "Conoce a Oliver" -%}
         {% if page.url == my_page.url %}
         <span class="page-link active">{{ my_page.title | escape }}</span>
-        {% elsif my_page.title == "Posts" %}
-        <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
         {% else %}
         <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
         {% endif %}
