@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Los unicos y detergentes en HMIS25
+title: Blog del grupo06 en HMIS25
 email: hmiseq@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   En este blog se tratarán temas de las sesiones de la asignatura

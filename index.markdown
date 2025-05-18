@@ -19,3 +19,5 @@ El blog, aunque realizado para una entrega en la asignatura **Herramientas y Met
     </li>
   {% endfor %}
 </ul>
+
+Si quieres ver todos los posts, [pincha aquí.](posts.md)
