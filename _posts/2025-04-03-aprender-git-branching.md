@@ -92,7 +92,7 @@ Este comando lista las ramas actuales del repositorio git. Con ``` Git branch <r
 ```html
 Git revert <commit>
 ```
-Revert añade un nuevo commit a la historia  deshaciendo los cambios del commit indicado en \<commit>. Si se quieren eliminar los cambios añadidos por varios commits revert acepta que se le pasen múltiples commits ```html
+Revert añade un nuevo commit a la historia  deshaciendo los cambios del commit indicado en \<commit>. Si se quieren eliminar los cambios añadidos por varios commits revert acepta que se le pasen múltiples commits ```
 Git revert <commit1> <commit2> <commit3> ...```
 
 
@@ -105,7 +105,7 @@ Hace retroceder (o avanzar) la rama al commit indicado, para retroceder un commi
 ```html
 Git cherry-pick <commit>
 ```
-Esta utilidad copia el \<commit> indicado a la rama sobre la que nos encontramos con otro hash(si estamos únicamente sobre HEAD también copiará el commit pero ninguna rama apuntará a él). al usar cherry pick no se pueden clonar commits que ya esten en esa rama. Si se quieren duplicar varios commits a la vez es posible hacer ```html
+Esta utilidad copia el \<commit> indicado a la rama sobre la que nos encontramos con otro hash(si estamos únicamente sobre HEAD también copiará el commit pero ninguna rama apuntará a él). al usar cherry pick no se pueden clonar commits que ya esten en esa rama. Si se quieren duplicar varios commits a la vez es posible hacer ```
 Git cherry-pick <commit1> <commit2> <commit3>...```
 
 
