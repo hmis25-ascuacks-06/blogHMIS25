@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog del grupo06 en HMIS25
+title: Blog del grupo09 en HMIS25
 email: hmiseq@gmail.com
+github_username: hmis25-ascuacks-09
 description: >- # this means to ignore newlines until "baseurl:"
   En este blog se tratarán temas de las sesiones de la asignatura
 baseurl: "/blogHMIS25" # the subpath of your site, e.g. /blog
-url: "https://hmis25-ascuacks-06.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hmis25-ascuacks-09.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
