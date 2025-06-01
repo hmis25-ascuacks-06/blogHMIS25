@@ -5,7 +5,7 @@ layout: default
 title: Home
 nav: true
 ---
-# Bienvenidos al blog del grupo 6 🎉
+# Bienvenidos al blog del grupo 9 🎉
 El blog, aunque realizado para una entrega en la asignatura **Herramientas y Metodologías de la Ingeniería del Software**, nos servirá para demostrar los conocimientos adquiridos a lo largo de la asignatura. Estos varían desde aprender a usar Git y sus comandos, a usar Jenkins para automatizar procesos de testeo, e incluso usar Selenium para realizar tests sobre páginas web.
 # 💫Posts más recientes💫
 
